@@ -1,0 +1,159 @@
+.container .navbar {
+  width: 1420px;
+  height: 20vh;
+  /* margin: 17px auto 0; */
+  margin: 10px 0;
+  position: relative;
+}
+
+.container .navbar .nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: -20px; */
+  /* border: 2px solid rgb(0, 30, 255); */
+}
+
+.container .navbar .nav1 ul {
+  display: flex;
+  gap: 45px;
+}
+
+.container .navbar .nav1 h1 a img {
+  transform: translateY(25px);
+}
+
+.container .navbar .nav1 ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.container .navbar .nav1 ul li .link:hover {
+  color: #274597;
+}
+
+.container .navbar .nav1 ul li .link.active {
+  color: #274597;
+}
+
+.container .navbar .nav1 .serach_icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #274597;
+}
+
+.container .nav2 {
+  width: auto;
+  display: flex;
+  /* align-items: flex-end; */
+  position: absolute;
+  top: 98px;
+  right: 200px;
+  gap: 25px;
+  z-index: 5;
+  /* border: 2px solid black; */
+}
+
+.container .nav2 p {
+  color: #828282;
+}
+
+.container .nav2 .number_email{
+  font-size: 20px;
+}
+.container .nav2 .number_email .email {
+  margin-top: 18px;
+}
+
+.container .nav2 hr {
+  height: 50px;
+  color: #828282 !important;
+  margin-right: -20px;
+}
+.container .nav2 .number_item{
+  font-size: 20px;
+  margin-top: -3px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+  .container .navbar {
+    width: 100%;
+    height: 18vh;
+    margin: 17px auto 0;
+    /* overflow: hidden; */
+    /* border: 2px solid red; */
+    position: relative;
+  }
+  
+  .container .navbar .nav1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: -20px; */
+    /* border: 2px solid rgb(0, 30, 255); */
+  }
+  
+  .container .navbar .nav1 ul {
+    display: none;
+  }
+  
+  .container .navbar .nav1 h1 a img {
+    transform: translateY(25px);
+  }
+
+  
+  .container .navbar .nav1 ul li .link.active {
+    color: #274597;
+  }
+  
+  .container .navbar .nav1 .serach_icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: #274597;
+  }
+  
+  .container .nav2 {
+    width: auto;
+    display: flex;
+    /* align-items: flex-end; */
+    position: absolute;
+    top: 98px;
+    right: 200px;
+    gap: 25px;
+    z-index: 5;
+    /* border: 2px solid black; */
+  }
+  
+  .container .nav2 p {
+    color: #828282;
+  }
+  
+  .container .nav2 .number_email .email {
+    margin-top: 15px;
+    display: none;
+  }
+  
+  .container .nav2 hr {
+    height: 50px;
+    color: #828282 !important;
+    margin-right: -20px;
+    display: none;
+  }
+  .container .nav2 .number_item{
+    font-size: 20px;
+    margin-top: -3px;
+    display: none;
+  }
+  
+}
+  

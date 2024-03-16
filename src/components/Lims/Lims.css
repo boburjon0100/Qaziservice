@@ -1,0 +1,542 @@
+.lims {
+  width: 100%;
+  height: auto;
+}
+
+.lims .main2 {
+  width: 1519.5px;
+  height: 530px;
+  background-image: url(../../../public/images/diagnostika.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+  color: white;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* overflow: hidden; */
+  /* border: 2px solid red; */
+}
+
+.lims .main2 .main-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.lims .main2 .main-text .text_top {
+  width: 285px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.lims .main2 .main-text .text_top h1 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lims .main2 .main-text .text_top p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lims .main2 .main-text .text_bot {
+  width: 1220px;
+  height: 150px;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+}
+
+.lims .main2 .main-text .text_bot h4 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.lims .main2 .main-text .text_bot .text-bot2 {
+  display: flex;
+  gap: 70px;
+}
+
+.lims .main2 .main-text .text_bot .text-bot2 .seyf-text {
+  width: 48%;
+  display: flex;
+}
+
+.lims .main2 .main-text .text_bot .text-bot2 .seyf-text img {
+  width: 60px;
+  height: 60px;
+  /* border: 2px solid purple; */
+  margin-right: 50px;
+}
+
+.lims .main2 .main-text .text_bot .text-bot2 .seyf-text p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lims .main2 .vector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: -20%;
+  z-index: 5;
+}
+
+.lims .main2 .vector img {
+  width: 25px;
+}
+
+/* Lims - Text  */
+
+.lims .lims-text {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 200px 120px 100px;
+}
+
+.lims .lims-text .lims_top {
+  display: flex;
+  align-items: center;
+}
+
+.lims .lims-text .lims_top h2 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+  margin: 0 100px 50px 0;
+  /* border: 2px solid red; */
+}
+
+.lims .lims-text .lims_top img {
+  width: 31px;
+  height: 56px;
+  margin-bottom: 50px;
+}
+
+.lims .lims-text .lims_bot {
+  display: flex;
+  gap: 130px;
+}
+
+.lims .lims-text .lims_bot p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.lims .diagnostika {
+  width: 1420px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.lims .diagnostika .diag_text {
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+
+.lims .diagnostika .diag_text h2 {
+  width: 415px;
+  height: 175px;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+  /* border: 2px solid purple; */
+  margin-right: 30px;
+}
+
+.lims .diagnostika .diag_img {
+  width: 65%;
+  height: 100%;
+}
+
+.lims .diagnostika .diag_img img {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+}
+
+.lims .diagnostika2 {
+  width: 1420px;
+  margin: 120px auto !important;
+  display: flex;
+  position: relative;
+  /* border: 2px solid red; */
+  padding: 160px 0 200px 0;
+}
+
+.lims .diagnostika2 button {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  border: none;
+  cursor: pointer;
+  background-color: #274597;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.lims .diagnostika2 button:hover {
+  background-color: red;
+}
+
+.lims .diagnostika2 .diag_text2 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+
+.lims .diagnostika2 .diag_text2 h2 {
+  width: 415px;
+  height: 175px;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+  /* border: 2px solid purple; */
+  margin-right: 170px;
+}
+
+.lims .diagnostika2 .diag_text2 a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: -50px 420px 0 0;
+  color: #828282;
+  border-bottom: 1px solid #828282;
+}
+
+.lims .diagnostika2 .diag_img2 {
+  width: 65%;
+  height: 100%;
+}
+
+.lims .diagnostika2 .diag_img2 img {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+}
+
+
+
+
+
+
+
+/* 3333333333333333333333333333333333333333 */
+
+
+@media screen and (max-width: 768px) {
+  .lims {
+    width: 100%;
+    height: auto;
+  }
+  
+  .lims .main2 {
+    width: 100%;
+    height: 270px;
+    background-image: url(../../../public/images/diagnostika.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    color: white;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* overflow: hidden; */
+    /* border: 2px solid red; */
+  }
+  
+  .lims .main2 .main-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lims .main2 .main-text .text_top {
+    width: 50%;
+    height: 20px;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .lims .main2 .main-text .text_top h1 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-left: 40px;
+  }
+  
+  .lims .main2 .main-text .text_top p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0em;
+   padding-left: 40px;
+  }
+  
+  .lims .main2 .main-text .text_bot {
+    width: 90%;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+  }
+  
+  .lims .main2 .main-text .text_bot h4 {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding-left: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .lims .main2 .main-text .text_bot .text-bot2 {
+    display: flex;
+    gap: 70px;
+  }
+  
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+  
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text img {
+    width: 20px;
+    height: 20px;
+    /* border: 2px solid purple; */
+    
+  }
+  
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text p {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .lims .main2 .vector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -20%;
+    z-index: 5;
+  }
+  
+  .lims .main2 .vector img {
+    width: 25px;
+  }
+  
+  /* Lims - Text  */
+  
+  .lims .lims-text {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px 120px 100px;
+  }
+  
+  .lims .lims-text .lims_top {
+    display: flex;
+    align-items: center;
+  }
+  
+  .lims .lims-text .lims_top h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+    margin: 0 100px 50px 0;
+    /* border: 2px solid red; */
+  }
+  
+  .lims .lims-text .lims_top img {
+    width: 31px;
+    height: 56px;
+    margin-bottom: 50px;
+  }
+  
+  .lims .lims-text .lims_bot {
+    display: flex;
+    gap: 130px;
+  }
+  
+  .lims .lims-text .lims_bot p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+  }
+  
+  .lims .diagnostika {
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 120px;
+  }
+  
+  .lims .diagnostika .diag_text {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid blue; */
+  }
+  
+  .lims .diagnostika .diag_text h2 {
+    width: 415px;
+    height: 175px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+    /* border: 2px solid purple; */
+    margin-right: 30px;
+  }
+  
+  .lims .diagnostika .diag_img {
+    width: 65%;
+    height: 100%;
+  }
+  
+  .lims .diagnostika .diag_img img {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid black; */
+  }
+  
+  .lims .diagnostika2 {
+    width: 1420px;
+    margin: 120px auto !important;
+    display: flex;
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 160px 0 200px 0;
+  }
+  
+  .lims .diagnostika2 button {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    border: none;
+    cursor: pointer;
+    background-color: #274597;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 10px;
+    padding: 15px 20px;
+  }
+  
+  .lims .diagnostika2 button:hover {
+    background-color: red;
+  }
+  
+  .lims .diagnostika2 .diag_text2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+  }
+  
+  .lims .diagnostika2 .diag_text2 h2 {
+    width: 415px;
+    height: 175px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+    /* border: 2px solid purple; */
+    margin-right: 170px;
+  }
+  
+  .lims .diagnostika2 .diag_text2 a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: -50px 420px 0 0;
+    color: #828282;
+    border-bottom: 1px solid #828282;
+  }
+  
+  .lims .diagnostika2 .diag_img2 {
+    width: 65%;
+    height: 100%;
+  }
+  
+  .lims .diagnostika2 .diag_img2 img {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid black; */
+  }
+  
+}

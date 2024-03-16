@@ -1,0 +1,117 @@
+.search{
+    width: 100%;
+    height: auto;
+}
+.search .search1{
+    width: 80%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin: 50px auto;
+  
+}
+
+
+.search .search1 .top{
+    width: 60%;
+    height: 8vh;
+    margin: 0 auto;
+    position: relative;
+    /* border: 2px solid red; */
+    color: rgb(112, 112, 112);
+}
+.search .search1 .top .top1{
+    height: 2vh;
+    position: absolute;
+    right: 60px;
+    top: 0;
+}
+.search .search1 .top .top2{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+.search .search1 .top .top2 input{
+    width: 73%;
+    height: 5vh;
+    margin-right: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(237, 238, 238);
+    outline: none;
+}
+.search .search1 .top .top2 svg{
+    font-size: 25px;
+   padding-right: 10px;
+   color: rgb(5, 5, 161);
+}
+.search .search1 .p1{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 6%;
+    color: rgb(152, 152, 152);
+}
+.search .search1 .bottom{
+    width: 100%;
+    height: 15vh;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+.search .search1 .bottom .bottom1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+}
+.search .search1 .bottom .bottom1 p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(122, 122, 122);
+}
+.search .search1 .bottom .bottom2{
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid rgb(255, 0, 106); */
+}
+.search .search1 .bottom .bottom2 h4{
+    color: rgb(2, 2, 180);
+    padding: 20px 20px 0 20px ;
+}
+.search .search1 .bottom .bottom2 p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: rgb(122, 122, 122);
+}
+
+.search .number{
+    width: 15%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 auto;
+    /* border:  2px solid red; */
+
+}
+.search .number a{
+    width: 15% ;
+    height: 4vh;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    border: 1px solid rgb(50, 49, 49);
+    background-color: rgb(228, 228, 227);
+    color: blue;
+
+}
